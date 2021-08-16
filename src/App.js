@@ -10,7 +10,7 @@ import RicePage from "./pages/RicePage"
 import VegPage from "./pages/VegPage"
 import BevPage from "./pages/BevPage"
 
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
+import {HashRouter as Router, Switch, Route} from "react-router-dom"
 
 
 
