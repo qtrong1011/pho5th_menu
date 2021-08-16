@@ -1,25 +1,57 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import TitleBar from "./components/TitleBar"
+import SectionButton from "./components/SectionButton"
+import SpecialtiesPage from "./pages/SpecialtiesPage"
+import AppetizerPage from "./pages/AppetizerPage"
+import PhoPage from "./pages/PhoPage"
+import BunPage from "./pages/BunPage"
+import SandwichPage from "./pages/SandwichPage"
+import RicePage from "./pages/RicePage"
+import VegPage from "./pages/VegPage"
+import BevPage from "./pages/BevPage"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
+
+
+
+function App(){
+    return(
+        <div className="menu_display">
+            
+            <TitleBar/>
+            <Router>
+            <SectionButton/>
+                <Switch>
+                    <Route path='/' exact>
+                        <SpecialtiesPage/>  
+                    </Route>
+                    <Route path='/appetizer'>
+                        <AppetizerPage/>
+                    </Route>
+                    <Route path='/pho'>
+                        <PhoPage/>
+                    </Route>
+                    <Route path='/bun'>
+                        <BunPage/>
+                    </Route>
+                    <Route path='/sandwich'>
+                        <SandwichPage/>
+                    </Route>
+                    <Route path='/rice'>
+                        <RicePage/>
+                    </Route>
+                    {/* <Route path='/stirfry'>
+                        <StirFryPage/>
+                    </Route> */}
+                    <Route path='/veg'>
+                        <VegPage/>
+                    </Route>
+                    <Route path='/bev'>
+                        <BevPage/>
+                    </Route>
+                </Switch>
+            </Router>
+        </div>
+    )
 }
-
-export default App;
+export default App 
