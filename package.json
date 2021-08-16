@@ -1,6 +1,6 @@
 
 {
-  "homepage": "http://qtrong1011.github.io/pho5th_menu",
+  "home" : ".",
   "name": "pho5th",
   "version": "0.1.0",
   "private": true,
