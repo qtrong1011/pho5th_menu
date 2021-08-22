@@ -3,19 +3,19 @@ const RiceSide = [
         id:"RS1",
         name:"Thêm Gà hoặc Heo",
         description:"Side grilled chicken or pork",
-        price:"4.99"
+        price:"5.49"
     },
     {
         id:"RS2",
         name:"Thêm Tôm hoặc Bò",
         description:"Side grilled shrimp (4) or beef",
-        price:"5.49"
+        price:"5.99"
     },
     {
         id:"RS3",
         name:"Thêm Chạo Tôm",
         description:"Extra sugarcane shrimp",
-        price:"4.99"
+        price:"5.49"
     },
     {
         id:"RS4",

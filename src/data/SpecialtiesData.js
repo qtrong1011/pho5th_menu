@@ -9,7 +9,7 @@ const SpecialtiesData = [
         id : "SP2",
         name: "Cơm Bò Lúc Lắc - Shaking Beef",
         description: "Seared beef served with fried rice or steamed rice (add $2.49 for fried rice)",
-        price : "16.99"
+        price : "17.99"
     },
     {
         id : "P0",
@@ -21,13 +21,13 @@ const SpecialtiesData = [
         id : "R1",
         name: "Cơm Đặc Biệt 7 Món - Phở Fifth Avenue Rice Special",
         description: "Grilled pork, grilled shrimp, shrimp on the sugar cane, shrimp wrapped, grilled chicken, steamed meatloaf and shredded pork served with regular steamed rice, lettuce, tomatoes, cucumbers, pickled carrots, daikon, and a side of lime fish sauce.",
-        price : "16.99"
+        price : "17.99"
     },
     {
         id : "V1",
         name: "Bún Đặc Biệt 7 Món - Phở Fifth Avenue Noodle Special",
         description: "Marinated pork saussage, grilled shrimp, shrimp on the sugar cane, shrimp wrapped, grilled chicken, grilled pork and egg rolls served with vermicelli rice noodles, shredded lettuce, cucumbers, bean sprouts, pickled carrots and daikon, roasted peanuts and a side of lime fish sauce.",
-        price : "16.99"
+        price : "17.99"
     }
 ]
 export default SpecialtiesData

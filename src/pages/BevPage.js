@@ -1,6 +1,7 @@
 import React from "react"
 import BevData from "../data/BevData"
 import DisplayItem from "../components/DisplayItem"
+import Drink_Pic from "../assets/images/drinks.jpeg"
 
 class BevPage extends React.Component{
     constructor(){
@@ -17,6 +18,9 @@ class BevPage extends React.Component{
             <div>
                 <div className="section_header">
                     <h1>Giải Khát - Beverages</h1>
+                    <span>
+                        <img alt="Drinks" src={Drink_Pic} className="item_pics"></img>
+                    </span>
                 </div>
                 <div className="item_display">
                     {bevComponent}

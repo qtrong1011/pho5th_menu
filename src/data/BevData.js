@@ -54,6 +54,12 @@ const BevData = [
         price:"5.99"
     },
     {
+        id:"B10",
+        name:"Nước Mía - Sugarcane",
+        description:"",
+        price:"5.99"
+    },
+    {
         id:"B11",
         name:"Nước Dừa - Coconut Juice with Coconut Slices",
         description:"",

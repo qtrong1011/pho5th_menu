@@ -1,6 +1,7 @@
 import React from "react"
 import SpecialtiesData from "../data/SpecialtiesData"
 import DisplayItem from "../components/DisplayItem"
+import ShakingBeef from "../assets/images/shakingbeef.jpg"
 
 class SpecialtiesPage extends React.Component{
     constructor(){
@@ -17,6 +18,9 @@ class SpecialtiesPage extends React.Component{
             <div>
                 <div className="section_header">
                     <h1>Phở Fifth Avenue Specials</h1>
+                    <span>
+                        <img alt="Shaking Beef" src={ShakingBeef} className="item_pics"></img>
+                    </span>
                 </div>
                 <div className="item_display">
                     {specialtiesComponent}

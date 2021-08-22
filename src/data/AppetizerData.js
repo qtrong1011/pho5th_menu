@@ -33,19 +33,19 @@ const AppetizerData = [
         id: "A6",
         name: "Gỏi Gà - Grilled Chicken Salad",
         description: "Grill chicken over fresh salad, herbs, peanuts, tossed in house vinaigrette",
-        price: "9.49"
+        price: "10.99"
     },
     {
         id: "A7",
         name: "Gỏi Tôm Thịt - Shrimp & Pork Salad",
         description: "Grill shrimp and steam pork over fresh salad, herbs, peanuts, tossed in house vinaigrette",
-        price: "9.99"
+        price: "11.99"
     },
     {
         id: "A8",
         name: "Gỏi Tôm - Shrimp Salad",
         description: "Grill shrimp over fresh salad, herbs, peanuts, tossed in house vinaigrette",
-        price: "9.99"
+        price: "11.49"
     },
     {
         id: "A9",

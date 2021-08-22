@@ -3,6 +3,7 @@ import BunData from "../data/BunData"
 import DisplayItem from "../components/DisplayItem"
 import RS_logo from "../assets/images/rs_icon.webp"
 import PopupRS from "../components/PopupRS"
+import Bun_Pic from "../assets/images/bun.jpeg"
 
 class BunPage extends React.Component{
     constructor(){
@@ -40,6 +41,10 @@ class BunPage extends React.Component{
             <div>
                 <div className="section_header">
                     <h1>Bún - Vermicelli</h1>
+                    <p>Vermicelli rice noodles, shredded lettuce, cucumbers, bean sprouts, pickled carrots and daikon, roasted peanuts and a side of lime fish sauce.</p>
+                    <span>
+                        <img alt="Vermicelli Noodle" src={Bun_Pic} className="item_pics"></img>
+                    </span>
                 </div>
                 <div className="body-menu">
                     <div className="item_display">

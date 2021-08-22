@@ -9,6 +9,7 @@ import SandwichPage from "./pages/SandwichPage"
 import RicePage from "./pages/RicePage"
 import VegPage from "./pages/VegPage"
 import BevPage from "./pages/BevPage"
+import FootNote from "./components/FootNote"
 
 import {HashRouter as Router, Switch, Route} from "react-router-dom"
 
@@ -50,6 +51,7 @@ function App(){
                         <BevPage/>
                     </Route>
                 </Switch>
+                <FootNote />
             </Router>
         </div>
     )

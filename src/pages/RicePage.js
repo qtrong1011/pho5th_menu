@@ -3,6 +3,7 @@ import RiceData from "../data/RiceData"
 import DisplayItem from "../components/DisplayItem"
 import RS_logo from "../assets/images/rs_icon.webp"
 import PopupRS from "../components/PopupRS"
+import Rice_Pic from "../assets/images/rice.jpg"
 
 class RicePage extends React.Component{
     constructor(){
@@ -40,6 +41,10 @@ class RicePage extends React.Component{
             <div>
                 <div className="section_header">
                     <h1>Cơm - Rice</h1>
+                    <p>Served with regular steamed rice, lettuce, tomatoes, cucumbers, pickled carrots, daikon and a side of lime fish sauce.</p>
+                    <span>
+                        <img alt="Rice Dish" src={Rice_Pic} className="item_pics"></img>
+                    </span>
                 </div>
                 <div className="body-menu">
                     <div className="item_display">

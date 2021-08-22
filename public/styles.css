@@ -188,7 +188,7 @@ body{
   /*Pho Side Style */
   .PS_section_wrapper{
       position: sticky;
-      top: 0;
+      top: 0.5rem;
       cursor: pointer;
       align-items: center;
   }
@@ -207,5 +207,28 @@ body{
       color: white;
       border-radius: 5px;
   }
+  /*Style FootNote */
+
+  .FootNote{
+      display: flex;
+    text-align: center;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 0.9em;
+    flex-direction: column;
+  }
+   /*Style Item Pictures */
+   .item_pics{
+       width: 100px;
+       height: 100px;
+       border-radius: 50%;
+       
+   }
+   .item_pics_wrapper{
+       display:flex;
+       justify-content: space-evenly;
+   }
+
+  
   
   
