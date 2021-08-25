@@ -4,14 +4,18 @@ import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
 
 
 class Popup extends React.Component {
-    // constructor(){
-    //     super()
-    // }
- 
+    constructor(){
+        super();
+        this.stopClickingPopup = this.stopClickingPopup.bind(this)
+
+    }
+    stopClickingPopup(e){
+        e.stopPropagation();
+    }
     render(){
         return (
             <div className="popup-box">
-              <div className="box">
+              <div className="box" onClick={this.stopClickingPopup}>
                 {/* <span className="close-icon" onClick={this.props.handleClose}>x</span> */}
                 
                     <div className="menu-section">

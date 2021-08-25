@@ -13,7 +13,7 @@ function SectionButton(){
         }
     }
     return(
-        <div className="section-button-border-wrap">
+        <div className="section-button-border-wrap" onClick={togglePopup}>
             <button  className="section-button" onClick={togglePopup}>
                 <i class="fa fa-bars"></i>
                 <span>Jump to Menu Section</span>

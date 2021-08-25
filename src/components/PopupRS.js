@@ -20,6 +20,7 @@ class PopupRS extends React.Component {
         return (
                 <div  className="popup-box" onClick={this.props.handleClose}  >
                     <div className="box" onClick={this.stopClickingPopup}>
+                        <span className="close-icon" onClick={this.props.handleClose}>x</span>
                         <div className = "section_header">
                             <h1>Grilled Side Orders</h1>
                         </div>

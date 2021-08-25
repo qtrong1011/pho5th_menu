@@ -49,7 +49,7 @@ const RiceData = [
     },
     {
         id:"R9",
-        name:"Cơm Tôm Bò Nướng - Grilled Shrimp and Pork Combo",
+        name:"Cơm Tôm Bò Nướng - Grilled Shrimp and Beef Combo",
         description:"Marinated shrimps and beef grilled over open flame.",
         price: "12.49"
     },
