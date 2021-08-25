@@ -124,7 +124,7 @@ body{
     margin-top: calc(100vh - 85vh - 20px);
     background: #D9CBB4;
     border-radius: 15px;
-    /* padding: 20px; */
+    padding: 20px;
     border: 1px solid #999;
     overflow: auto;
   }
