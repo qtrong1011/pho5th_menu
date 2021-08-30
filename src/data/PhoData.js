@@ -132,12 +132,6 @@ const PhoData = [
         price: "9.99/11.49"
     },
     {
-        id:"P22",
-        name:"Miến Gà",
-        description:"Clear noodle soup with chicken.",
-        price: "9.99/11.49"
-    },
-    {
         id:"P23",
         name:"Phở Không",
         description:"Noodles only with beef or chicken broth.",

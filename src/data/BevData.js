@@ -68,13 +68,13 @@ const BevData = [
     {
         id:"B12",
         name:"Nước Ngọt - Soft Drinks",
-        description:"Choice of Coke, Diet Coke, Rootbeer, Sunkist, Sprite, Diet Dr.Pepper, Water Bottles.",
+        description:"Choice of Coke, Diet Coke, Rootbeer, Sunkist, Sprite, Diet Dr.Pepper, Dr.Pepper, Water Bottles.",
         price:"2.49"
     },
     {
         id:"B13",
         name:"Beer",
-        description:"Choice of Dos Equis, Blue Moon, Pacifico, Stella, Singha, Tsingtao, Sapporo, Saigon.",
+        description:"Choice of Dos Equis, Blue Moon, Pacifico, Stella, Singha, Tsingtao, Sapporo.",
         price:"4.99"
     },
     {
