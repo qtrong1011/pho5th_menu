@@ -15,7 +15,7 @@ const VegData = [
         id:"C3",
         name:"Phở Chay - Vegetarian Noodle Soup",
         description:"Fresh tofu and mixed vegetables with vegetarian broth",
-        price: "9.99/11.49" 
+        price: "10.75/12.25" 
     },
     {
         id:"C4",

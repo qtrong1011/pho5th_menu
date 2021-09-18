@@ -15,7 +15,7 @@ const SpecialtiesData = [
         id : "P0",
         name: "Phở Filet Mignon",
         description: "Our signature noodle soup with rare filet",
-        price : "11.99(S)/14.49(L)"
+        price : "12.99(S)/15.49(L)"
     },
     {
         id : "R1",
