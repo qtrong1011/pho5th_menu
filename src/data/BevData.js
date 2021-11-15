@@ -2,13 +2,13 @@ const BevData = [
     {
         id:"B1",
         name:"Cà Phê Đen - Vietnamese Espresso",
-        description:"Served iced or hot.",
+        description:"Served iced only",
         price:"5.99"
     },
     {
         id:"B2",
         name:"Cà Phê Sữa - Vietnamese Espresso with Condensed Milk",
-        description:"Served iced or hot.",
+        description:"Served iced only",
         price:"5.99"
     },
     {
