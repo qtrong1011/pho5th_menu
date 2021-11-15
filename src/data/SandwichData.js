@@ -22,12 +22,6 @@ const SandwichData = [
         name:"Bánh Mì Bò Nướng - Grilled Beef Sandwich",
         description:"",
         price: "7.99"
-    },
-    {
-        id:"S5",
-        name:"Bánh Mì Bò Kho - Beef Stew served with French Baguette",
-        description:"",
-        price: "9.99"
-    },
+    }
 ]
 export default SandwichData

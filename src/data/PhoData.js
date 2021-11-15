@@ -108,21 +108,9 @@ const PhoData = [
         price: "10.75/12.25"
     },
     {
-        id:"P18",
-        name:"Phở Bò Kho",
-        description:"Beef stew",
-        price: "11.75/13.25"
-    },
-    {
         id:"P19",
         name:"Phở Tôm",
         description:"Shrimps with beef or chicken broth.",
-        price: "11.75/13.25"
-    },
-    {
-        id:"P20",
-        name:"Phở Đồ Biển",
-        description:"Shrimps and fish with beef or chicken broth.",
         price: "11.75/13.25"
     },
     {

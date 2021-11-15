@@ -70,12 +70,6 @@ const RiceData = [
         name:"Cơm Chiên Tôm - Shrimp Fried Rice",
         description:"",
         price: "13.49"
-    },
-    {
-        id:"R13",
-        name:"Cơm Chiên Đồ Biển - Seafood Fried Rice",
-        description:"",
-        price: "13.49"
     }
 ]
 export default RiceData
