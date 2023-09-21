@@ -11,7 +11,7 @@ import VegPage from "./pages/VegPage"
 import BevPage from "./pages/BevPage"
 import FootNote from "./components/FootNote"
 
-import {HashRouter as Router, Switch, Route} from "react-router-dom"
+import {HashRouter as Router, Routes ,Route} from "react-router-dom"
 
 
 
@@ -22,35 +22,28 @@ function App(){
             <TitleBar/>
             <Router>
             <SectionButton/>
-                <Switch>
-                    <Route path='/' exact>
-                        <SpecialtiesPage/>  
+                <Routes>
+                    <Route path='/' exact element={<SpecialtiesPage/> }>
+                         
                     </Route>
-                    <Route path='/appetizer'>
-                        <AppetizerPage/>
+                    <Route path='/appetizer' element={<AppetizerPage/>}>
                     </Route>
-                    <Route path='/pho'>
-                        <PhoPage/>
+                    <Route path='/pho' element={<PhoPage/>}>
                     </Route>
-                    <Route path='/bun'>
-                        <BunPage/>
+                    <Route path='/bun' element={<BunPage/>}>
                     </Route>
-                    <Route path='/sandwich'>
-                        <SandwichPage/>
+                    <Route path='/sandwich' element={<SandwichPage/>}>
                     </Route>
-                    <Route path='/rice'>
-                        <RicePage/>
+                    <Route path='/rice' element={<RicePage/>}>
                     </Route>
                     {/* <Route path='/stirfry'>
                         <StirFryPage/>
                     </Route> */}
-                    <Route path='/veg'>
-                        <VegPage/>
+                    <Route path='/veg' element={<VegPage/>}>
                     </Route>
-                    <Route path='/bev'>
-                        <BevPage/>
+                    <Route path='/bev' element={<BevPage/>}>
                     </Route>
-                </Switch>
+                </Routes>
                 <FootNote />
             </Router>
         </div>
