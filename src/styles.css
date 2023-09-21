@@ -1,0 +1,234 @@
+/* body{
+    background-color: #D9CBB4;
+    margin-top: 0;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding:0;
+} */
+body{
+    background-color: #D9CBB4;
+}
+.menu_display{
+    background-color: #D9CBB4;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+/* .title_bar{
+    text-align: center;
+    border: #D9CBB4 solid 0px;
+    box-shadow:0px 1px 1px grey; 
+    
+} */
+.title_bar{
+    -webkit-box-shadow: 0 4px 6px -6px #222;
+  -moz-box-shadow: 0 4px 6px -6px #222;
+  box-shadow: 0 4px 6px -6px #222;
+  text-align: center;
+  width:100%;
+    
+}
+.title_bar h1{
+    font-size: 10vw;
+    color: 	#006400;
+    font-family: 'Dancing Script', cursive;
+}
+.title_bar h3 p{
+    color: #4A4844;
+    margin-top: 0
+
+}
+
+.section_header{
+    text-align: center;
+}
+.section_header h1 {
+    font-size: 8vw;
+    color: 	#006400;
+    font-family: 'Dancing Script', cursive;
+}
+.section_header p{
+    margin-top: -1.5em;
+    text-align: center;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 0.9em;
+}
+.body-menu{
+    display:flex;
+    justify-content: center;
+}
+
+.item_display{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+}
+.each_item_display{
+    display: flex;
+    /* align-content: flex-start; */
+
+}
+.name_description{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    align-content: center;
+    width: 75%;
+}
+.description {
+    margin-top: -1.5em;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 0.9em;
+}
+/*Section Button Style*/
+.section-button-border-wrap{
+    position: -webkit-sticky;
+    position: sticky; /* Make the button scroll down */
+    top: 0.5rem;/*Make the button scroll down */
+    /* background-color: #D9CBB4; */
+}
+
+.section-button{
+    padding: 0.5rem;
+    /* background: linear-gradient(270deg, #D9CBB4,#006400 120%,#006400); */
+    background: #006400;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* Popup style */
+.popup-box {
+    position: fixed;
+    background: #a8636350;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+  }
+   
+  .box {
+    position: relative;
+    /* width: 70%; */
+    width: 70%;
+    margin: 0 auto;
+    height: auto;
+    max-height: 70vh;
+    margin-top: calc(100vh - 85vh - 20px);
+    background: #D9CBB4;
+    border-radius: 15px;
+    padding: 20px;
+    border: 1px solid #999;
+    overflow: auto;
+  }
+   
+  .close-icon {
+    content: 'x';
+    cursor: pointer;
+    position: fixed;
+    right: calc(15% - 30px);
+    top: calc(100vh - 85vh - 33px);
+    /* right: calc(30% - 60px);
+    top: calc(99.5vh - 85vh - 33px); */
+    background: #ededed;
+    /* width: 25px; */
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #999;
+    font-size: 20px;
+  }
+  /*Menu Section Style*/
+  .menu-section ul{
+      list-style-type: none;
+      padding:0;
+  }
+  .menu-section ul li {
+    -webkit-box-shadow: 0px 4px 6px -6px #222;
+    -moz-box-shadow: 0px 4px 6px -6px #222;
+    box-shadow: 0px 4px 6px -6px #222;
+  }
+  .menu-section ul li a{
+    text-decoration: none;
+    color: black;
+    /* width: 100%; */
+  }
+  .box-title{
+      text-align: center;
+      font-weight: bold;
+  }
+  .go-to-menu{
+      display:block;
+      padding-right: 10px;
+      
+  }
+  .go-to-menu span{
+      float: right;
+  }
+  .box-title{
+      display:block;
+      padding-right: 10px;
+  }
+  
+  .box-title span{
+      float:right;
+      cursor: pointer;
+      /* color: red; */
+  }
+
+  /*Pho Side Style */
+  .PS_section_wrapper{
+      position: sticky;
+      top: 0.5rem;
+      cursor: pointer;
+      align-items: center;
+  }
+  .PS_logo{
+      width: 55px;
+      height: 55px;
+      border-radius: 100px;
+      /* position: sticky;
+      top:0.5rem; */
+      
+  }
+  .PS_banner{
+      border: solid 1px #006400;
+      text-align: center;
+      background-color: #006400 ;
+      color: white;
+      border-radius: 5px;
+  }
+  /*Style FootNote */
+
+  .FootNote{
+      display: flex;
+    text-align: center;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 0.9em;
+    flex-direction: column;
+  }
+   /*Style Item Pictures */
+   .item_pics{
+       width: 100px;
+       height: 100px;
+       border-radius: 50%;
+       
+   }
+   .item_pics_wrapper{
+       display:flex;
+       justify-content: space-evenly;
+   }
+
+  
+  
+  
