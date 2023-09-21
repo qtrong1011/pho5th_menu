@@ -1,26 +1,19 @@
 {
   "files": {
-    "main.js": "/pho5th_menu/static/js/main.31bedc58.chunk.js",
-    "main.js.map": "/pho5th_menu/static/js/main.31bedc58.chunk.js.map",
-    "runtime-main.js": "/pho5th_menu/static/js/runtime-main.eb86d4ba.js",
-    "runtime-main.js.map": "/pho5th_menu/static/js/runtime-main.eb86d4ba.js.map",
-    "static/js/2.c19a1df9.chunk.js": "/pho5th_menu/static/js/2.c19a1df9.chunk.js",
-    "static/js/2.c19a1df9.chunk.js.map": "/pho5th_menu/static/js/2.c19a1df9.chunk.js.map",
+    "main.js": "/pho5th_menu/static/js/main.c94fdfa1.js",
+    "static/media/bun.jpeg": "/pho5th_menu/static/media/bun.c26b7dbcabfaa423a815.jpeg",
+    "static/media/springrolls.jpeg": "/pho5th_menu/static/media/springrolls.b63c6c7f2f1302042172.jpeg",
+    "static/media/pho.jpeg": "/pho5th_menu/static/media/pho.a2b62755a28076eef937.jpeg",
+    "static/media/sandwich.jpeg": "/pho5th_menu/static/media/sandwich.1e560d2befe910e67125.jpeg",
+    "static/media/eggrolls.jpeg": "/pho5th_menu/static/media/eggrolls.27587ca5aea6f0593e8d.jpeg",
+    "static/media/drinks.jpeg": "/pho5th_menu/static/media/drinks.0e0868168f70a2ee6756.jpeg",
+    "static/media/shakingbeef.jpg": "/pho5th_menu/static/media/shakingbeef.5870e83d2b38451ef1e8.jpg",
+    "static/media/rice.jpg": "/pho5th_menu/static/media/rice.8a1ec9dacb8bfa1c4e1d.jpg",
+    "static/media/rs_icon.webp": "/pho5th_menu/static/media/rs_icon.f1c776c7d8261ee18821.webp",
     "index.html": "/pho5th_menu/index.html",
-    "static/js/2.c19a1df9.chunk.js.LICENSE.txt": "/pho5th_menu/static/js/2.c19a1df9.chunk.js.LICENSE.txt",
-    "static/media/bun.c26b7dbc.jpeg": "/pho5th_menu/static/media/bun.c26b7dbc.jpeg",
-    "static/media/drinks.0e086816.jpeg": "/pho5th_menu/static/media/drinks.0e086816.jpeg",
-    "static/media/eggrolls.27587ca5.jpeg": "/pho5th_menu/static/media/eggrolls.27587ca5.jpeg",
-    "static/media/pho.a2b62755.jpeg": "/pho5th_menu/static/media/pho.a2b62755.jpeg",
-    "static/media/rice.8a1ec9da.jpg": "/pho5th_menu/static/media/rice.8a1ec9da.jpg",
-    "static/media/rs_icon.f1c776c7.webp": "/pho5th_menu/static/media/rs_icon.f1c776c7.webp",
-    "static/media/sandwich.1e560d2b.jpeg": "/pho5th_menu/static/media/sandwich.1e560d2b.jpeg",
-    "static/media/shakingbeef.5870e83d.jpg": "/pho5th_menu/static/media/shakingbeef.5870e83d.jpg",
-    "static/media/springrolls.b63c6c7f.jpeg": "/pho5th_menu/static/media/springrolls.b63c6c7f.jpeg"
+    "main.c94fdfa1.js.map": "/pho5th_menu/static/js/main.c94fdfa1.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.eb86d4ba.js",
-    "static/js/2.c19a1df9.chunk.js",
-    "static/js/main.31bedc58.chunk.js"
+    "static/js/main.c94fdfa1.js"
   ]
 }
